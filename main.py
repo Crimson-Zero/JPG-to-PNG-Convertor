@@ -17,4 +17,4 @@ for file in get_files:
 for image in image_array:
     name = image.split(".")[0]
     image_item = Image.open(image)
-    image_item.save(f"{PNG_directory}/{name}.png")
+    image_item.save(f"{PNG_directory}/{name}.png",'png')
